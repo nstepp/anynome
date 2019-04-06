@@ -1,7 +1,8 @@
+<img src="/img/anynome-logo.png" align="right" style="float:right;">
+
 # Anynome
 
 ## Overview
-
 Anynome is a generalized metronome, which displays audible or visual stimuli according to an arbitrary schedule.  Additionally, keypress times are logged during the presentation, which enables data to be collected on reaction times or similar statistics.
 
 Scheduling is accomplished via plugins which generate inter-stimulus interval time series. For example, for a standard metronome, this series would be made up of a single number repeated some number of times.
