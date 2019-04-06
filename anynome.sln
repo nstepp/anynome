@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "anynome", "anynome.vcproj", "{2CB56775-DDEC-415A-B535-16166B69C02E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "plugins", "plugins\plugins.vcproj", "{70A601EE-BC23-4864-B703-E9EE15C4E6CE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2CB56775-DDEC-415A-B535-16166B69C02E}.Debug.ActiveCfg = Debug|Win32
+		{2CB56775-DDEC-415A-B535-16166B69C02E}.Debug.Build.0 = Debug|Win32
+		{2CB56775-DDEC-415A-B535-16166B69C02E}.Release.ActiveCfg = Release|Win32
+		{2CB56775-DDEC-415A-B535-16166B69C02E}.Release.Build.0 = Release|Win32
+		{70A601EE-BC23-4864-B703-E9EE15C4E6CE}.Debug.ActiveCfg = plugin_file Debug|Win32
+		{70A601EE-BC23-4864-B703-E9EE15C4E6CE}.Debug.Build.0 = plugin_file Debug|Win32
+		{70A601EE-BC23-4864-B703-E9EE15C4E6CE}.Release.ActiveCfg = plugin_file Release|Win32
+		{70A601EE-BC23-4864-B703-E9EE15C4E6CE}.Release.Build.0 = plugin_file Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
